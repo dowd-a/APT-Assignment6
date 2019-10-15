@@ -29,4 +29,29 @@ def highest_affinity(site_list, user_list, time_list):
                     affinities[pair] = 0
                 affinities[pair] += 1
 
+    x = 0
+    if x == 1:
+        y = 2
+        z = 3
+        f = y+z
+        print(x)
+        print(y)
+        print(z)
+        print(f)
+
+    for i in range(x):
+        y = y+1
+        z = z+1
+        print(y)
+        print(z)
+        print(i)
+
+    if y:
+        print(x)
+        print(y)
+        print(z)
+        print(f)
+        print(f+x)
+        print(f+y)
+
     return max(affinities, key=affinities.get)
